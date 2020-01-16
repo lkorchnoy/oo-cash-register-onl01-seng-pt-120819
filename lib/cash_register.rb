@@ -8,7 +8,7 @@ class CashRegister
     self.items = []
     self.last_transaction_amount = 0
   end
-  attr_accessor :items, :discount, :total, :last_transaction
+  
 
   def total=(value)
     @total = value
